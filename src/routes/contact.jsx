@@ -3,20 +3,19 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
 
-
-function Event() {
+function Contact() {
   return (
-    <div className="Event">
+    <div className="Contact">
       <Navbar />
       <div class="route-container">
         <div className="title-container">
-          <h1>Events</h1>
+          <h1>Contact</h1>
         </div>
         <div className="body-container">
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 }
-export default Event;
+export default Contact;

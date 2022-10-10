@@ -1,24 +1,63 @@
 .container{
-background-image: url("../images/Cylindric-Icon.jpg");
-background-size: cover;
-background-position: center;
 min-height: 100vh;
+display: flex;
+background-color: #180F12;
+}
+
+.image{
+  height: 500px;
+  width: 500px;
+  background-image: url("../images/Cylindric-Icon.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  border: 1px solid #262626;
 }
 
 .text-container{
   text-align: center;
-  font-family: 'Syne Mono', monospace;
+  font-family: 'Karla', sans-serif;
+  width: fit-content;
+  padding: 20px;
+  margin: auto;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  background-color: rgba(42, 38, 40, 0.9);
+  border: 1px solid #262626;
 }
 
-.text-container h1{
-  color: #262626;
-  font-size: 50px;
-  text-shadow: 2px 2px #0C090D;
+.text-container h2{
+  color: #0C090D;
+  font-size: 40px;
+  text-shadow: 2px 2px #262626;
+  margin: 10px;
 }
 
+.first-name{
+  margin: 0;
+  margin-right: 50%;
+}
+
+.links{
+  margin: 20px;
+}
 .link{
 padding: 20px;
 text-decoration: none;
 font-size: 25px;
 color: #0C090D;
+}
+
+.link:hover {
+font-weight: bold;
+transition: all 0.3s ease-in-out;
+}
+
+.left-container{
+  background-color: #0C090D;
+  width: 300px;
+  height: 100vh;
 }

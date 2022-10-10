@@ -1,0 +1,8 @@
+.bio{
+  width: 60%;
+  height: fit-content;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 35%;
+  font-size: 25px;
+}

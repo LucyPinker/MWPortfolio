@@ -3,14 +3,21 @@ import ReactDOM from 'react-dom';
 import {
   BrowserRouter,
   Routes,
-  Route,
+  Route
 } from "react-router-dom";
 import './stylesheets/index.css';
 import App from './App';
 import Music from "./routes/music";
 import Event from "./routes/events";
 import About from "./routes/about";
+import Contact from "./routes/contact";
+import './stylesheets/navbar.css';
+import './stylesheets/footer.css';
+import './stylesheets/music.css';
+import './stylesheets/about.css';
 import reportWebVitals from './reportWebVitals';
+import './stylesheets/contact.css';
+
 
 
 ReactDOM.render(
@@ -21,8 +28,9 @@ ReactDOM.render(
         <Route path="music" element={<Music/>} />
         <Route path="about" element={<About/>} />
         <Route path="events" element={<Event/>} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>,
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
