@@ -11,12 +11,7 @@ import Music from "./routes/music";
 import Event from "./routes/events";
 import About from "./routes/about";
 import Contact from "./routes/contact";
-import './stylesheets/navbar.css';
-import './stylesheets/footer.css';
-import './stylesheets/music.css';
-import './stylesheets/about.css';
 import reportWebVitals from './reportWebVitals';
-import './stylesheets/contact.css';
 
 
 

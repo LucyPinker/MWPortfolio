@@ -2,6 +2,7 @@ import Player from "../components/player"
 import '../stylesheets/sharedRoutes.css';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
+import '../stylesheets/music.css';
 
 
 function Music() {

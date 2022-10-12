@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import React from 'react'
 import { GrSoundcloud } from 'react-icons/gr';
 import { FiInstagram } from 'react-icons/fi';
+import '../stylesheets/footer.css';
+
 
 
 class Footer extends React.Component {

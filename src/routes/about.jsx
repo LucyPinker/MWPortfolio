@@ -1,6 +1,7 @@
 import '../stylesheets/sharedRoutes.css';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
+import '../stylesheets/about.css';
 
 
 function About() {
